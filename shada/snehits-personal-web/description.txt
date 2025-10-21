@@ -1,0 +1,2 @@
+This is a repo and area for creating my personal website
+It will include a html and css frontend
