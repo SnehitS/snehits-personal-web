@@ -3,168 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snehit Shadangi - Portfolio</title>
+    <title>Snehit Shadangi</title>
+    <meta name="description" content="Computer Science and Finance student at the University of Maryland.">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <header>
+        <img src="headshot.jpg" alt="Snehit Shadangi" width="160" height="120">
+        <div>
+            <h1>Snehit Shadangi</h1>
+            <p>Computer Science &amp; Finance student at the University of Maryland.</p>
+            <p class="links">
+                <a href="mailto:shadangisnehit@gmail.com">shadangisnehit@gmail.com</a>
+                <a href="https://github.com/SnehitS">GitHub</a>
+                <a href="https://www.linkedin.com/in/snehit-shadangi">LinkedIn</a>
+                <a href="resume.pdf">Resume</a>
+            </p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
     </nav>
 
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <div class="hero-image-container fade-in">
-                <img src="Headshots-133.jpg" alt="Snehit Shadangi" class="profile-pic slide-in">
-                <div class="hero-image-backdrop"></div>
-            </div>
-            <div class="hero-text">
-                <h1 class="typing">Snehit Shadangi</h1>
-                <h2 class="fade-in">Computer Science Student</h2>
-                <h3 class="university fade-in">University of Maryland</h3>
-                <div class="hero-cta fade-in">
-                    <a href="#contact" class="cta-button">Get in Touch</a>
-                    <a href="#experience" class="cta-button-secondary">View My Work</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section id="experience">
+            <h2>Experience</h2>
 
-    <section id="about" class="section">
-        <h2 class="section-title slide-in">About Me</h2>
-        <div class="about-content fade-in">
-            <p>I'm a passionate Computer Science student at the University of Maryland, focusing on software development and problem-solving. I love creating efficient solutions and learning new technologies.</p>
-            <div class="social-links">
-                <a href="https://github.com/SnehitS" target="_blank" class="social-icon">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/snehit-shadangi-13a70a377" target="_blank" class="social-icon">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section">
-        <h2 class="section-title slide-in">Experience</h2>
-        <div class="experience-grid">
-            <div class="experience-card fade-in">
-                <h3>AppDev Bootcamp</h3>
-                <h4>Elite Software Development Training</h4>
-                <p class="highlight-text">Selected from 300+ applicants for an intensive, mentor-led bootcamp with 40 peers.</p>
-                <div class="tech-stack">
-                    <h5>Technical Training:</h5>
-                    <ul>
-                        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
-                        <li><strong>Backend:</strong> FastAPI, SQLite</li>
-                        <li><strong>Version Control:</strong> Git/GitHub</li>
-                        <li><strong>Project:</strong> Full-stack web application development and deployment</li>
-                    </ul>
-                </div>
-                <div class="mentorship-details">
-                    <h5>Elite Mentorship:</h5>
-                    <p>Mentored by senior engineers from:</p>
-                    <ul class="company-list">
-                        <li>Google</li>
-                        <li>Amazon</li>
-                        <li>Capital One</li>
-                    </ul>
-                </div>
-                <div class="key-focus">
-                    <h5>Training Focus:</h5>
-                    <ul>
-                        <li>Software engineering best practices</li>
-                        <li>Scalable architecture design</li>
-                        <li>Collaborative development workflows</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="experience-card fade-in">
-                <h3>Roblox Game Developer</h3>
-                <h4>Independent Developer</h4>
-                <p class="highlight-text">Created and managed successful Roblox games with active player engagement.</p>
-                <div class="tech-stack">
-                    <h5>Technical Skills:</h5>
-                    <ul>
-                        <li><strong>Programming:</strong> Lua, Roblox Studio</li>
-                        <li><strong>Game Systems:</strong> Player Progression, Economy Design</li>
-                        <li><strong>Development:</strong> UI/UX Design, Game Mechanics</li>
-                    </ul>
-                </div>
-                <div class="achievements">
-                    <h5>Key Achievements:</h5>
-                    <ul>
-                        <li>Developed engaging gameplay mechanics and systems</li>
-                        <li>Implemented effective monetization strategies</li>
-                        <li>Created intuitive user interfaces for enhanced player experience</li>
-                        <li>Managed community feedback and game updates</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="experience-card fade-in">
-                <h3>Point72 Quantitative Competition</h3>
-                <h4>Investment Analysis Challenge</h4>
-                <p>Developed a comprehensive investment thesis for shorting Li Auto using data-driven analysis and AI-assisted financial modeling.</p>
+            <article>
+                <h3>Machine Learning Engineer</h3>
+                <p class="meta">Structora · Palantir Startup Fellowship / NVIDIA Inception · Jan 2026 – Present · College Park, MD</p>
                 <ul>
-                    <li>Created detailed financial models using LLM assistance for data analysis</li>
-                    <li>Conducted thorough market research and competitive analysis</li>
-                    <li>Developed compelling short thesis backed by quantitative data</li>
-                    <li>Presented investment deck to industry professionals</li>
+                    <li>Built a natural-language-to-JSON pipeline with Instructor and Python/NumPy so user queries can be turned into structured data for downstream models.</li>
+                    <li>Integrated a BIM-to-IFC graph generator with Neo4j using Node.js so architects can query building models as graph data.</li>
+                    <li>Reduced LLM hallucination in the NLP-to-Revit pipeline by refining prompts and adding validation checks.</li>
                 </ul>
-            </div>
-        </div>
-    </section>
+            </article>
 
-    <section id="projects" class="section">
-        <h2 class="section-title slide-in">Projects</h2>
-        <div class="experience-grid">
-            <div class="experience-card fade-in">
+            <article>
+                <h3>Undergraduate Research Assistant</h3>
+                <p class="meta">Maryland Neuroimaging Center · Jul 2026 – Present · College Park, MD</p>
+                <ul>
+                    <li>Building a React and Docker web interface for the English Sublexical Toolkit (Wiley et al., 2024) under Dr. Jeremy Purcell.</li>
+                    <li>The tool computes grapheme-phoneme consistency across phonographeme, onset, and rime levels for real words and pseudowords.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Software Engineer</h3>
+                <p class="meta">Voodoo – Vex · Aug 2025 – Present · College Park, MD</p>
+                <ul>
+                    <li>Worked on clipping UI and backend so users can scrub and select video.</li>
+                    <li>Built candidate retrieval and ranking models for a recommended feed, using real engagement data to refine ranking and performance.</li>
+                    <li>Integrated OpenAI speech-to-text with Python scripts to generate ElevenLabs voice agents.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Consultant</h3>
+                <p class="meta">Project LIFT · Aug 2026 – Present · College Park, MD</p>
+                <ul>
+                    <li>Building web apps with React and JavaScript and AI tools with pandas and Docker for local small businesses.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Strive</h3>
+                <p class="meta">Dec 2025</p>
+                <ul>
+                    <li>Workout tracker for sets, reps, weight, volume, and training time.</li>
+                    <li>Backend support for rankings and leaderboards, with MongoDB for storage.</li>
+                </ul>
+            </article>
+
+            <article>
                 <h3>AI Dungeon Master</h3>
-                <h4>Project with BigThink AI</h4>
-                <p>Advanced AI-powered tabletop gaming platform that creates dynamic, interactive storytelling experiences.</p>
-                <div class="tech-stack">
-                    <h5>Technology Stack:</h5>
-                    <ul>
-                        <li><strong>Frontend:</strong> React, Next.js, TailwindCSS, ShadCN, Material UI</li>
-                        <li><strong>Backend:</strong> OpenAI API, DnD 5e API, MongoDB</li>
-                        <li><strong>AI & Memory:</strong> LangGraph, Zep/Graphiti, Neo4j</li>
-                        <li><strong>Real-time Features:</strong> Socket.IO, Redis</li>
-                        <li><strong>Voice Integration:</strong> VAPI / ElevenLabs</li>
-                        <li><strong>Deployment:</strong> Vercel</li>
-                    </ul>
-                </div>
-                <div class="achievements">
-                    <h5>Key Achievements:</h5>
-                    <ul>
-                        <li>Built scalable multi-user interactive storytelling system</li>
-                        <li>Implemented advanced AI memory management for persistent narratives</li>
-                        <li>Developed real-time voice integration for immersive gameplay</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+                <p class="meta">Aug 2025 – Present</p>
+                <ul>
+                    <li>2D map generation with Stability, plus 3D interactable minimaps for events.</li>
+                    <li>Neo4j knowledge graph for long-term session memory.</li>
+                    <li>Scraper for the D&amp;D 5e API to validate movement and skills.</li>
+                </ul>
+            </article>
 
-    <section id="contact" class="section">
-        <h2 class="section-title slide-in">Contact Me</h2>
-        <div class="contact-content fade-in">
-            <p>Feel free to reach out to me for collaborations or opportunities!</p>
-            <div class="contact-links">
-                <a href="mailto:your.email@example.com" class="contact-button">
-                    <i class="fas fa-envelope"></i> Email Me
-                </a>
-            </div>
-        </div>
-    </section>
+            <article>
+                <h3>Flyers Prediction Model</h3>
+                <p class="meta">Aug 2025 – Present</p>
+                <ul>
+                    <li>Machine learning model to predict Philadelphia Flyers game outcomes from NHL API data.</li>
+                    <li>Preprocessing and feature engineering on team stats, player metrics, and game conditions.</li>
+                </ul>
+            </article>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 Snehit Shadangi. All rights reserved.</p>
-    </footer>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p><strong>Languages:</strong> Java, Python, C/C++, SQL (Postgres), JavaScript, TypeScript, HTML/CSS, R</p>
+            <p><strong>Frameworks:</strong> React, Node.js, Flask, FastAPI, JUnit, Material-UI</p>
+            <p><strong>Tools:</strong> Git, Docker, Google Cloud Platform, VS Code, Visual Studio, PyCharm, Cursor, Eclipse</p>
+            <p><strong>Libraries:</strong> pandas, NumPy, Matplotlib</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>University of Maryland</h3>
+                <p class="meta">B.S. Computer Science, Finance · Aug 2025 – May 2028 · College Park, MD</p>
+                <p>Coursework: Data Structures and Algorithms</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
