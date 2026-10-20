@@ -13,9 +13,9 @@
     --ink: #1c1712;
     --muted: #5c5348;
     --paper: #f4efe6;
-    --display: "Oswald", "Arial Narrow", sans-serif;
-    --sans: "Libre Franklin", "Segoe UI", sans-serif;
-    --number: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
+    --display: "Fraunces", Georgia, serif;
+    --sans: "Figtree", "Segoe UI", sans-serif;
+    --number: "Teko", "Arial Narrow", Impact, sans-serif;
 }
 
 *,
