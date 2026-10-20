@@ -3,122 +3,381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snehit Shadangi</title>
-    <meta name="description" content="Computer Science and Finance student at the University of Maryland.">
+    <title>Snehit Shadangi — Home Dressing Room</title>
+    <meta name="description" content="Computer Science and Finance student at the University of Maryland. Experience, projects, and match reports.">
+    <meta name="theme-color" content="#140e0a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="headshot.jpg" alt="Snehit Shadangi" width="160" height="120">
-        <div>
-            <h1>Snehit Shadangi</h1>
-            <p>Computer Science &amp; Finance student at the University of Maryland.</p>
-            <p class="links">
-                <a href="mailto:shadangisnehit@gmail.com">shadangisnehit@gmail.com</a>
-                <a href="https://github.com/SnehitS">GitHub</a>
-                <a href="https://www.linkedin.com/in/snehit-shadangi">LinkedIn</a>
-                <a href="resume.pdf">Resume</a>
-            </p>
-        </div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="overhead" aria-hidden="true"></div>
+
+    <a class="skip" href="#seasons">Skip to seasons</a>
+
+    <header class="directory">
+        <p class="directory-mark">
+            <span class="directory-room">Home dressing room</span>
+            <span class="directory-no">No. 08 · Shadangi</span>
+        </p>
+        <nav aria-label="Room directory">
+            <a href="#seasons">Seasons</a>
+            <a href="#kits">Kit wall</a>
+            <a href="#training">Training</a>
+            <a href="#academy">Academy</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-    </nav>
-
     <main>
-        <section id="experience">
-            <h2>Experience</h2>
+        <section class="hero" aria-label="Player locker">
+            <div class="locker-bank">
+                <div class="closed-locker" aria-hidden="true">
+                    <span class="door-vents"></span>
+                    <span class="mini-plate">07</span>
+                </div>
 
-            <article>
-                <h3>Machine Learning Engineer</h3>
-                <p class="meta">Structora · Palantir Startup Fellowship / NVIDIA Inception · Jan 2026 – Present · College Park, MD</p>
-                <ul>
-                    <li>Built a natural-language-to-JSON pipeline with Instructor and Python/NumPy so user queries can be turned into structured data for downstream models.</li>
-                    <li>Integrated a BIM-to-IFC graph generator with Neo4j using Node.js so architects can query building models as graph data.</li>
-                    <li>Reduced LLM hallucination in the NLP-to-Revit pipeline by refining prompts and adding validation checks.</li>
-                </ul>
-            </article>
+                <div class="player-locker">
+                    <div class="cabinet">
+                        <span class="hinge hinge-top"></span>
+                        <span class="hinge hinge-bot"></span>
+                        <div class="locker-interior">
+                            <img src="headshot.jpg" alt="Snehit Shadangi" width="280" height="360">
+                            <p class="locker-number">08</p>
+                        </div>
+                        <div class="locker-door">
+                            <span class="door-vents"></span>
+                            <span class="door-plate">Shadangi</span>
+                            <span class="door-lock"></span>
+                        </div>
+                    </div>
+                </div>
 
-            <article>
-                <h3>Undergraduate Research Assistant</h3>
-                <p class="meta">Maryland Neuroimaging Center · Jul 2026 – Present · College Park, MD</p>
-                <ul>
-                    <li>Building a React and Docker web interface for the English Sublexical Toolkit (Wiley et al., 2024) under Dr. Jeremy Purcell.</li>
-                    <li>The tool computes grapheme-phoneme consistency across phonographeme, onset, and rime levels for real words and pseudowords.</li>
-                </ul>
-            </article>
+                <div class="closed-locker" aria-hidden="true">
+                    <span class="door-vents"></span>
+                    <span class="mini-plate">09</span>
+                </div>
+            </div>
 
-            <article>
-                <h3>Software Engineer</h3>
-                <p class="meta">Voodoo – Vex · Aug 2025 – Present · College Park, MD</p>
-                <ul>
-                    <li>Worked on clipping UI and backend so users can scrub and select video.</li>
-                    <li>Built candidate retrieval and ranking models for a recommended feed, using real engagement data to refine ranking and performance.</li>
-                    <li>Integrated OpenAI speech-to-text with Python scripts to generate ElevenLabs voice agents.</li>
-                </ul>
-            </article>
-
-            <article>
-                <h3>Consultant</h3>
-                <p class="meta">Project LIFT · Aug 2026 – Present · College Park, MD</p>
-                <ul>
-                    <li>Building web apps with React and JavaScript and AI tools with pandas and Docker for local small businesses.</li>
-                </ul>
-            </article>
+            <div class="hero-copy">
+                <p class="eyebrow">University of Maryland · College Park</p>
+                <h1>Snehit Shadangi</h1>
+                <p class="role">Computer Science &amp; Finance · Match-day locker for work, research, and side projects.</p>
+                <p class="hero-links">
+                    <a href="mailto:shadangisnehit@gmail.com">Email</a>
+                    <a href="https://github.com/SnehitS" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/snehit-shadangi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="resume.pdf">Resume</a>
+                </p>
+                <p class="hint">Pull a kit or a season plaque for the match report.</p>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
+        <div class="walls">
+            <section id="seasons" class="season-board">
+                <header class="wall-header">
+                    <h2>Season board</h2>
+                    <p>Jobs hang as plaques. Click a plate for the full card.</p>
+                </header>
 
-            <article>
-                <h3>Strive</h3>
-                <p class="meta">Dec 2025</p>
-                <ul>
-                    <li>Workout tracker for sets, reps, weight, volume, and training time.</li>
-                    <li>Backend support for rankings and leaderboards, with MongoDB for storage.</li>
-                </ul>
-            </article>
+                <div class="plaques">
+                    <div class="plaque-slot">
+                        <button class="plaque" type="button" aria-expanded="false" aria-controls="report-structora" data-opens="report-structora">
+                            <span class="year">26</span>
+                            <span class="plaque-body">
+                                <span class="plaque-role">Machine Learning Engineer</span>
+                                <span class="plaque-club">Structora · Palantir Fellowship / NVIDIA Inception</span>
+                                <span class="plaque-place">Jan 2026 – Present · College Park, MD</span>
+                            </span>
+                            <span class="form on">On pitch</span>
+                        </button>
+                        <article id="report-structora" class="report" hidden>
+                            <p class="report-kicker">Season card</p>
+                            <h3>Machine Learning Engineer</h3>
+                            <p class="meta">Structora · Palantir Startup Fellowship / NVIDIA Inception · Jan 2026 – Present · College Park, MD</p>
+                            <ul>
+                                <li>Built a natural-language-to-JSON pipeline with Instructor and Python/NumPy so user queries can be turned into structured data for downstream models.</li>
+                                <li>Integrated a BIM-to-IFC graph generator with Neo4j using Node.js so architects can query building models as graph data.</li>
+                                <li>Reduced LLM hallucination in the NLP-to-Revit pipeline by refining prompts and adding validation checks.</li>
+                            </ul>
+                        </article>
+                    </div>
 
-            <article>
-                <h3>AI Dungeon Master</h3>
-                <p class="meta">Aug 2025 – Present</p>
-                <ul>
-                    <li>2D map generation with Stability, plus 3D interactable minimaps for events.</li>
-                    <li>Neo4j knowledge graph for long-term session memory.</li>
-                    <li>Scraper for the D&amp;D 5e API to validate movement and skills.</li>
-                </ul>
-            </article>
+                    <div class="plaque-slot">
+                        <button class="plaque" type="button" aria-expanded="false" aria-controls="report-mnc" data-opens="report-mnc">
+                            <span class="year">26</span>
+                            <span class="plaque-body">
+                                <span class="plaque-role">Undergraduate Research Assistant</span>
+                                <span class="plaque-club">Maryland Neuroimaging Center</span>
+                                <span class="plaque-place">Jul 2026 – Present · College Park, MD</span>
+                            </span>
+                            <span class="form on">On pitch</span>
+                        </button>
+                        <article id="report-mnc" class="report" hidden>
+                            <p class="report-kicker">Season card</p>
+                            <h3>Undergraduate Research Assistant</h3>
+                            <p class="meta">Maryland Neuroimaging Center · Jul 2026 – Present · College Park, MD</p>
+                            <ul>
+                                <li>Building a React and Docker web interface for the English Sublexical Toolkit (Wiley et al., 2024) under Dr. Jeremy Purcell.</li>
+                                <li>The tool computes grapheme-phoneme consistency across phonographeme, onset, and rime levels for real words and pseudowords.</li>
+                            </ul>
+                        </article>
+                    </div>
 
-            <article>
-                <h3>Flyers Prediction Model</h3>
-                <p class="meta">Aug 2025 – Present</p>
-                <ul>
-                    <li>Machine learning model to predict Philadelphia Flyers game outcomes from NHL API data.</li>
-                    <li>Preprocessing and feature engineering on team stats, player metrics, and game conditions.</li>
-                </ul>
-            </article>
+                    <div class="plaque-slot">
+                        <button class="plaque" type="button" aria-expanded="false" aria-controls="report-voodoo" data-opens="report-voodoo">
+                            <span class="year">25</span>
+                            <span class="plaque-body">
+                                <span class="plaque-role">Software Engineer</span>
+                                <span class="plaque-club">Voodoo – Vex</span>
+                                <span class="plaque-place">Aug 2025 – Present · College Park, MD</span>
+                            </span>
+                            <span class="form on">On pitch</span>
+                        </button>
+                        <article id="report-voodoo" class="report" hidden>
+                            <p class="report-kicker">Season card</p>
+                            <h3>Software Engineer</h3>
+                            <p class="meta">Voodoo – Vex · Aug 2025 – Present · College Park, MD</p>
+                            <ul>
+                                <li>Worked on clipping UI and backend so users can scrub and select video.</li>
+                                <li>Built candidate retrieval and ranking models for a recommended feed, using real engagement data to refine ranking and performance.</li>
+                                <li>Integrated OpenAI speech-to-text with Python scripts to generate ElevenLabs voice agents.</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="plaque-slot">
+                        <button class="plaque" type="button" aria-expanded="false" aria-controls="report-lift" data-opens="report-lift">
+                            <span class="year">26</span>
+                            <span class="plaque-body">
+                                <span class="plaque-role">Consultant</span>
+                                <span class="plaque-club">Project LIFT</span>
+                                <span class="plaque-place">Aug 2026 – Present · College Park, MD</span>
+                            </span>
+                            <span class="form on">On pitch</span>
+                        </button>
+                        <article id="report-lift" class="report" hidden>
+                            <p class="report-kicker">Season card</p>
+                            <h3>Consultant</h3>
+                            <p class="meta">Project LIFT · Aug 2026 – Present · College Park, MD</p>
+                            <ul>
+                                <li>Building web apps with React and JavaScript and AI tools with pandas and Docker for local small businesses.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="kits" class="kit-wall">
+                <header class="wall-header">
+                    <h2>Kit wall</h2>
+                    <p>Projects hang as match kits. Hover to sway. Pull one off the peg.</p>
+                </header>
+
+                <div class="rail" aria-label="Match kits">
+                    <div class="kit-slot">
+                        <button class="kit kit-strive" type="button" style="--rest: -2.4deg; --idle: 5.2s;" aria-expanded="false" aria-controls="report-strive" data-opens="report-strive">
+                            <span class="kit-drop">
+                                <span class="kit-sway">
+                                    <span class="peg"></span>
+                                    <svg class="jersey" viewBox="0 0 200 258" aria-hidden="true">
+                                        <path class="hook" d="M100 8c-6 0-10 6-4 14l4 8 4-8c6-8 2-14-4-14z"/>
+                                        <path class="hanger" d="M42 42q58-22 116 0" fill="none"/>
+                                        <path class="sleeve" d="M56 56 12 74l16 46 36-22z"/>
+                                        <path class="sleeve" d="m144 56 44 18-16 46-36-22z"/>
+                                        <path class="body" d="M56 56c32 16 56 16 88 0l6 176c-48 16-98 0-98 0z"/>
+                                        <path class="fold" d="M100 70v150" fill="none"/>
+                                        <path class="collar" d="M80 58q20 22 40 0" fill="none"/>
+                                        <path class="stripe" d="M54 214c46 14 92 0 92 0" fill="none"/>
+                                    </svg>
+                                    <span class="marks">
+                                        <span class="jname">Strive</span>
+                                        <span class="jnum">9</span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="kit-caption">
+                                <span class="kit-title">Strive</span>
+                                <span class="kit-meta">Dec 2025 · Training kit</span>
+                            </span>
+                        </button>
+                        <article id="report-strive" class="report" hidden>
+                            <p class="report-kicker">Match report · No. 9</p>
+                            <h3>Strive</h3>
+                            <p class="meta">Dec 2025</p>
+                            <ul>
+                                <li>Workout tracker for sets, reps, weight, volume, and training time.</li>
+                                <li>Backend support for rankings and leaderboards, with MongoDB for storage.</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="kit-slot">
+                        <button class="kit kit-dungeon" type="button" style="--rest: 1.6deg; --idle: 4.4s;" aria-expanded="false" aria-controls="report-dungeon" data-opens="report-dungeon">
+                            <span class="kit-drop">
+                                <span class="kit-sway">
+                                    <span class="peg"></span>
+                                    <svg class="jersey" viewBox="0 0 200 258" aria-hidden="true">
+                                        <path class="hook" d="M100 8c-6 0-10 6-4 14l4 8 4-8c6-8 2-14-4-14z"/>
+                                        <path class="hanger" d="M42 42q58-22 116 0" fill="none"/>
+                                        <path class="sleeve" d="M56 56 12 74l16 46 36-22z"/>
+                                        <path class="sleeve" d="m144 56 44 18-16 46-36-22z"/>
+                                        <path class="body" d="M56 56c32 16 56 16 88 0l6 176c-48 16-98 0-98 0z"/>
+                                        <path class="fold" d="M100 70v150" fill="none"/>
+                                        <path class="collar" d="M80 58q20 22 40 0" fill="none"/>
+                                        <path class="stripe" d="M54 214c46 14 92 0 92 0" fill="none"/>
+                                    </svg>
+                                    <span class="marks">
+                                        <span class="jname">Dungeon</span>
+                                        <span class="jnum">11</span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="kit-caption">
+                                <span class="kit-title">AI Dungeon Master</span>
+                                <span class="kit-meta">Aug 2025 – Present · Away kit</span>
+                            </span>
+                        </button>
+                        <article id="report-dungeon" class="report" hidden>
+                            <p class="report-kicker">Match report · No. 11</p>
+                            <h3>AI Dungeon Master</h3>
+                            <p class="meta">Aug 2025 – Present</p>
+                            <ul>
+                                <li>2D map generation with Stability, plus 3D interactable minimaps for events.</li>
+                                <li>Neo4j knowledge graph for long-term session memory.</li>
+                                <li>Scraper for the D&amp;D 5e API to validate movement and skills.</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="kit-slot">
+                        <button class="kit kit-flyers" type="button" style="--rest: -1.1deg; --idle: 6s;" aria-expanded="false" aria-controls="report-flyers" data-opens="report-flyers">
+                            <span class="kit-drop">
+                                <span class="kit-sway">
+                                    <span class="peg"></span>
+                                    <svg class="jersey" viewBox="0 0 200 258" aria-hidden="true">
+                                        <path class="hook" d="M100 8c-6 0-10 6-4 14l4 8 4-8c6-8 2-14-4-14z"/>
+                                        <path class="hanger" d="M42 42q58-22 116 0" fill="none"/>
+                                        <path class="sleeve" d="M56 56 12 74l16 46 36-22z"/>
+                                        <path class="sleeve" d="m144 56 44 18-16 46-36-22z"/>
+                                        <path class="body" d="M56 56c32 16 56 16 88 0l6 176c-48 16-98 0-98 0z"/>
+                                        <path class="fold" d="M100 70v150" fill="none"/>
+                                        <path class="collar" d="M80 58q20 22 40 0" fill="none"/>
+                                        <path class="stripe" d="M54 214c46 14 92 0 92 0" fill="none"/>
+                                    </svg>
+                                    <span class="marks">
+                                        <span class="jname">Flyers</span>
+                                        <span class="jnum">16</span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="kit-caption">
+                                <span class="kit-title">Flyers Prediction</span>
+                                <span class="kit-meta">Aug 2025 – Present · Home kit</span>
+                            </span>
+                        </button>
+                        <article id="report-flyers" class="report" hidden>
+                            <p class="report-kicker">Match report · No. 16</p>
+                            <h3>Flyers Prediction Model</h3>
+                            <p class="meta">Aug 2025 – Present</p>
+                            <ul>
+                                <li>Machine learning model to predict Philadelphia Flyers game outcomes from NHL API data.</li>
+                                <li>Preprocessing and feature engineering on team stats, player metrics, and game conditions.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="training" class="training">
+            <header class="wall-header">
+                <h2>Training kit</h2>
+                <p>Equipment tags on the pegboard.</p>
+            </header>
+
+            <div class="shelves">
+                <div class="shelf">
+                    <h3>Languages</h3>
+                    <ul class="tags">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C / C++</li>
+                        <li>SQL (Postgres)</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>HTML / CSS</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+                <div class="shelf">
+                    <h3>Frameworks</h3>
+                    <ul class="tags">
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Flask</li>
+                        <li>FastAPI</li>
+                        <li>JUnit</li>
+                        <li>Material-UI</li>
+                    </ul>
+                </div>
+                <div class="shelf">
+                    <h3>Tools</h3>
+                    <ul class="tags">
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>Google Cloud Platform</li>
+                        <li>VS Code</li>
+                        <li>Visual Studio</li>
+                        <li>PyCharm</li>
+                        <li>Cursor</li>
+                        <li>Eclipse</li>
+                    </ul>
+                </div>
+                <div class="shelf">
+                    <h3>Libraries</h3>
+                    <ul class="tags">
+                        <li>pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <p><strong>Languages:</strong> Java, Python, C/C++, SQL (Postgres), JavaScript, TypeScript, HTML/CSS, R</p>
-            <p><strong>Frameworks:</strong> React, Node.js, Flask, FastAPI, JUnit, Material-UI</p>
-            <p><strong>Tools:</strong> Git, Docker, Google Cloud Platform, VS Code, Visual Studio, PyCharm, Cursor, Eclipse</p>
-            <p><strong>Libraries:</strong> pandas, NumPy, Matplotlib</p>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <article>
-                <h3>University of Maryland</h3>
-                <p class="meta">B.S. Computer Science, Finance · Aug 2025 – May 2028 · College Park, MD</p>
-                <p>Coursework: Data Structures and Algorithms</p>
+        <section id="academy" class="academy">
+            <header class="wall-header">
+                <h2>Academy</h2>
+            </header>
+            <article class="academy-plaque">
+                <p class="year-lg">25–28</p>
+                <div>
+                    <h3>University of Maryland</h3>
+                    <p class="meta">B.S. Computer Science, Finance · Aug 2025 – May 2028 · College Park, MD</p>
+                    <p>Coursework: Data Structures and Algorithms</p>
+                </div>
             </article>
         </section>
     </main>
+
+    <footer class="bench">
+        <p class="bench-label">Contact the player</p>
+        <p class="hero-links">
+            <a href="mailto:shadangisnehit@gmail.com">shadangisnehit@gmail.com</a>
+            <a href="https://github.com/SnehitS" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/snehit-shadangi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="resume.pdf">Resume PDF</a>
+        </p>
+    </footer>
+
+    <noscript>
+        <style>
+            .report[hidden] { display: block !important; }
+            .locker-door { transform: rotateY(-68deg); }
+            .kit-drop, .plaque { opacity: 1; transform: none; animation: none; }
+        </style>
+    </noscript>
+    <script src="locker.js"></script>
 </body>
 </html>
