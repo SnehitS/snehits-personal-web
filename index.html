@@ -26,7 +26,8 @@
             <span class="directory-no">No. 08 · Shadangi</span>
         </p>
         <nav aria-label="Room directory">
-            <a href="#room">Stalls</a>
+            <a href="#first-team" data-scroll-aisle>Experience</a>
+            <a href="#own-kits" data-scroll-aisle>Projects</a>
             <a href="#training">Training</a>
             <a href="#academy">Academy</a>
             <a href="#bench">Contact</a>
@@ -37,7 +38,7 @@
         <section class="intro">
             <p class="eyebrow">University of Maryland · College Park</p>
             <h1>Snehit Shadangi</h1>
-            <p class="role">Computer Science &amp; Finance. Walk the aisle — plaques above, kits inside the cubbies.</p>
+            <p class="role">Computer Science &amp; Finance. Silver plates are jobs. Gold plates are personal projects with GitHub on the shelf.</p>
             <p class="hero-links">
                 <a href="mailto:shadangisnehit@gmail.com">Email</a>
                 <a href="https://github.com/SnehitS" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -55,13 +56,14 @@
                 <div class="aisle" tabindex="0" aria-label="Locker stalls. Scroll or drag to walk the aisle.">
                     <div class="stall-row">
 
-                        <article class="stall is-player">
+                        <article class="stall is-player stall-home">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-player" data-opens="report-player">
                                 <span class="nameplate">Snehit Shadangi</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Home peg</span>
                                     <span class="kit kit-home" style="--rest: -1.4deg; --idle: 5.1s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -86,13 +88,16 @@
                             </button>
                         </article>
 
-                        <article class="stall">
+                        <div class="bank-post" id="first-team">Experience</div>
+
+                        <article class="stall stall-season">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-structora" data-opens="report-structora">
                                 <span class="nameplate">Structora</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Job</span>
                                     <span class="kit kit-navy" style="--rest: 1.8deg; --idle: 4.6s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -116,13 +121,14 @@
                             </button>
                         </article>
 
-                        <article class="stall">
+                        <article class="stall stall-season">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-mnc" data-opens="report-mnc">
                                 <span class="nameplate">Neuroimaging</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Job</span>
                                     <span class="kit kit-cream" style="--rest: -2deg; --idle: 5.8s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -146,13 +152,14 @@
                             </button>
                         </article>
 
-                        <article class="stall">
+                        <article class="stall stall-season">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-voodoo" data-opens="report-voodoo">
                                 <span class="nameplate">Voodoo – Vex</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Job</span>
                                     <span class="kit kit-black" style="--rest: 0.8deg; --idle: 4.9s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -176,13 +183,14 @@
                             </button>
                         </article>
 
-                        <article class="stall">
+                        <article class="stall stall-season">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-lift" data-opens="report-lift">
                                 <span class="nameplate">Project LIFT</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Job</span>
                                     <span class="kit kit-green" style="--rest: -1deg; --idle: 6.2s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -200,19 +208,22 @@
                                 </span>
                                 <span class="bench-cell">
                                     <span class="folded folded-green"></span>
-                                    <span class="shelf-note">Consult · 26</span>
+                                    <span class="shelf-note">Tech lead · 26</span>
                                 </span>
                                 <span class="boot-hole" aria-hidden="true"></span>
                             </button>
                         </article>
 
-                        <article class="stall">
+                        <div class="bank-post bank-post-projects" id="own-kits">Projects</div>
+
+                        <article class="stall stall-project">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-strive" data-opens="report-strive">
                                 <span class="nameplate">Strive</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Project</span>
                                     <span class="kit kit-clay" style="--rest: 2.2deg; --idle: 5.4s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -234,15 +245,17 @@
                                 </span>
                                 <span class="boot-hole" aria-hidden="true"></span>
                             </button>
+                            <a class="shelf-repo" href="https://github.com/SnehitS/Strive" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </article>
 
-                        <article class="stall">
+                        <article class="stall stall-project">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-dungeon" data-opens="report-dungeon">
                                 <span class="nameplate">Dungeon</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Project</span>
                                     <span class="kit kit-gold" style="--rest: -0.6deg; --idle: 4.3s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -266,13 +279,14 @@
                             </button>
                         </article>
 
-                        <article class="stall">
+                        <article class="stall stall-project">
                             <button class="stall-hit" type="button" aria-expanded="false" aria-controls="report-flyers" data-opens="report-flyers">
                                 <span class="nameplate">Flyers</span>
                                 <span class="cubby">
                                     <span class="inner-left"></span>
                                     <span class="inner-right"></span>
                                     <span class="hooks" aria-hidden="true"></span>
+                                    <span class="cubby-tag">Project</span>
                                     <span class="kit kit-orange" style="--rest: 1.3deg; --idle: 5.7s;">
                                         <span class="kit-sway">
                                             <span class="hanger"></span>
@@ -295,88 +309,101 @@
                                 </span>
                                 <span class="boot-hole" aria-hidden="true"></span>
                             </button>
+                            <a class="shelf-repo" href="https://github.com/SnehitS/Flyers-Prediction-Model" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </article>
 
                     </div>
                 </div>
 
-                <p class="aisle-hint">Drag or scroll sideways to walk the aisle. Click a stall for the match report.</p>
+                <p class="aisle-hint">Experience is the silver-plate wall. Projects are gold plates — GitHub sits on the shelf. Drag the aisle, then click a stall.</p>
             </div>
 
             <div class="report-dock">
                 <article id="report-player" class="report" hidden>
-                    <p class="report-kicker">Player stall · No. 08</p>
+                    <p class="report-kicker">Home peg · No. 08</p>
                     <h3>Snehit Shadangi</h3>
                     <p class="meta">Computer Science &amp; Finance · University of Maryland · College Park, MD</p>
                     <ul>
-                        <li>This is the home peg. The other stalls are seasons and match kits.</li>
+                        <li>This is the home peg. Walk the aisle for experience (silver plates), then projects (gold plates).</li>
                         <li><a href="mailto:shadangisnehit@gmail.com">shadangisnehit@gmail.com</a> · <a href="resume.pdf">Resume PDF</a></li>
                     </ul>
                 </article>
-                <article id="report-structora" class="report" hidden>
-                    <p class="report-kicker">Season card · No. 10</p>
+                <article id="report-structora" class="report is-season" hidden>
+                    <p class="report-kicker">Experience · Season card · No. 10</p>
                     <h3>Machine Learning Engineer</h3>
                     <p class="meta">Structora · Palantir Startup Fellowship / NVIDIA Inception · Jan 2026 – Present · College Park, MD</p>
                     <ul>
-                        <li>Built a natural-language-to-JSON pipeline with Instructor and Python/NumPy so user queries can be turned into structured data for downstream models.</li>
-                        <li>Integrated a BIM-to-IFC graph generator with Neo4j using Node.js so architects can query building models as graph data.</li>
-                        <li>Reduced LLM hallucination in the NLP-to-Revit pipeline by refining prompts and adding validation checks.</li>
+                        <li>Reduced median brief-to-validated BuildingSpec time from 102 seconds to 38 seconds in local benchmarks by replacing freeform JSON and manual Pydantic retries with Instructor structured extraction.</li>
+                        <li>Increased schema-valid extraction on BuildingSpec v2 from 0% to 100% on the same prompt, where the raw JSON path failed after three repair attempts every run.</li>
+                        <li>Engineered a deterministic LangGraph fallback that parses briefs in 40 milliseconds for offline and development use.</li>
+                        <li>Integrated a BIM-to-IFC graph generator with Neo4j and Node.js so architects can query building models as graphs.</li>
                     </ul>
                 </article>
-                <article id="report-mnc" class="report" hidden>
-                    <p class="report-kicker">Season card · No. 04</p>
+                <article id="report-mnc" class="report is-season" hidden>
+                    <p class="report-kicker">Experience · Season card · No. 04</p>
                     <h3>Undergraduate Research Assistant</h3>
                     <p class="meta">Maryland Neuroimaging Center · Jul 2026 – Present · College Park, MD</p>
                     <ul>
-                        <li>Building a React and Docker web interface for the English Sublexical Toolkit (Wiley et al., 2024) under Dr. Jeremy Purcell.</li>
-                        <li>The tool computes grapheme-phoneme consistency across phonographeme, onset, and rime levels for real words and pseudowords.</li>
+                        <li>Develop the React frontend for the English Sublexical Toolkit (Wiley et al., 2024) under Dr. Jeremy Purcell, spanning 8 routed views over a 400-measure catalog of grapheme-phoneme consistency.</li>
+                        <li>Delivered 2 analysis workflows and 3 result table formats across 34 variables in 8 categories, with responsive layouts and CSV export.</li>
+                        <li>Structured a dataset of 22,500 words and 21,000 precalculated records into normalized tables with pandas and validated the values against the published dataset.</li>
                     </ul>
                 </article>
-                <article id="report-voodoo" class="report" hidden>
-                    <p class="report-kicker">Season card · No. 07</p>
+                <article id="report-voodoo" class="report is-season" hidden>
+                    <p class="report-kicker">Experience · Season card · No. 07</p>
                     <h3>Software Engineer</h3>
                     <p class="meta">Voodoo – Vex · Aug 2025 – Present · College Park, MD</p>
                     <ul>
-                        <li>Worked on clipping UI and backend so users can scrub and select video.</li>
-                        <li>Built candidate retrieval and ranking models for a recommended feed, using real engagement data to refine ranking and performance.</li>
-                        <li>Integrated OpenAI speech-to-text with Python scripts to generate ElevenLabs voice agents.</li>
+                        <li>Designed the clipping interface and supporting backend so users can scrub a video and select a segment.</li>
+                        <li>Programmed candidate retrieval and ranking models for the recommended feed.</li>
+                        <li>Streamlined transcription by routing OpenAI speech-to-text through Python scripts feeding ElevenLabs voice agents.</li>
+                        <li>Optimized ranking logic against live engagement data and deployed the changes.</li>
                     </ul>
                 </article>
-                <article id="report-lift" class="report" hidden>
-                    <p class="report-kicker">Season card · No. 06</p>
-                    <h3>Consultant</h3>
+                <article id="report-lift" class="report is-season" hidden>
+                    <p class="report-kicker">Experience · Season card · No. 06</p>
+                    <h3>Tech Lead</h3>
                     <p class="meta">Project LIFT · Aug 2026 – Present · College Park, MD</p>
                     <ul>
-                        <li>Building web apps with React and JavaScript and AI tools with pandas and Docker for local small businesses.</li>
+                        <li>Lead 4 engineers building a custom inventory system for a florist to replace their Google Docs stock sheets.</li>
+                        <li>Direct development of a costing tool that breaks arrangements into stems and applies wholesale markup.</li>
+                        <li>Prototype low-stock alerts that flag when a flower drops below its weekly minimum and suggest a similar substitute for rush orders.</li>
+                        <li>Conducted requirements interviews across their point-of-sale, wire service, and delivery workflows to scope the build.</li>
                     </ul>
+                    <p><a class="repo-link" href="https://github.com/SnehitS/fastapi-lift" target="_blank" rel="noopener noreferrer">GitHub repo</a></p>
                 </article>
-                <article id="report-strive" class="report" hidden>
-                    <p class="report-kicker">Match report · No. 9</p>
+                <article id="report-strive" class="report is-project" hidden>
+                    <p class="report-kicker">Project · Match report · No. 9</p>
                     <h3>Strive</h3>
                     <p class="meta">Dec 2025</p>
                     <ul>
-                        <li>Workout tracker for sets, reps, weight, volume, and training time.</li>
-                        <li>Backend support for rankings and leaderboards, with MongoDB for storage.</li>
+                        <li>Built a workout tracker that logs sets, reps, weight, total volume, and session time.</li>
+                        <li>Organized the backend around lifting data to support rankings and leaderboards.</li>
+                        <li>Implemented MongoDB storage and the interface for comparing sessions.</li>
                     </ul>
+                    <p><a class="repo-link" href="https://github.com/SnehitS/Strive" target="_blank" rel="noopener noreferrer">GitHub repo</a></p>
                 </article>
-                <article id="report-dungeon" class="report" hidden>
-                    <p class="report-kicker">Match report · No. 11</p>
+                <article id="report-dungeon" class="report is-project" hidden>
+                    <p class="report-kicker">Project · Match report · No. 11</p>
                     <h3>AI Dungeon Master</h3>
                     <p class="meta">Aug 2025 – Present</p>
                     <ul>
-                        <li>2D map generation with Stability, plus 3D interactable minimaps for events.</li>
-                        <li>Neo4j knowledge graph for long-term session memory.</li>
-                        <li>Scraper for the D&amp;D 5e API to validate movement and skills.</li>
+                        <li>Introduced 2D map generation with Stability under per-user limits.</li>
+                        <li>Extended the map system with a 3D interactive mini-map for events.</li>
+                        <li>Constructed a Neo4j knowledge graph for long-term session memory.</li>
+                        <li>Automated validation of movement and skills with a scraper for the Dungeons and Dragons 5e API.</li>
                     </ul>
                 </article>
-                <article id="report-flyers" class="report" hidden>
-                    <p class="report-kicker">Match report · No. 16</p>
+                <article id="report-flyers" class="report is-project" hidden>
+                    <p class="report-kicker">Project · Match report · No. 16</p>
                     <h3>Flyers Prediction Model</h3>
                     <p class="meta">Aug 2025 – Present</p>
                     <ul>
-                        <li>Machine learning model to predict Philadelphia Flyers game outcomes from NHL API data.</li>
-                        <li>Preprocessing and feature engineering on team stats, player metrics, and game conditions.</li>
+                        <li>Modeled NHL game outcomes across 2,624 regular-season games, 2 seasons, and all 32 teams using as-of-game records, rest, and recent form with no future standings leakage.</li>
+                        <li>Surpassed a 51.2% home-ice baseline with logistic regression at 57.8% accuracy and 0.60 ROC-AUC on a 367-game chronological holdout from March to April 2026.</li>
+                        <li>Accelerated dataset rebuilds from thousands of per-game API calls to 72 cached weekly schedule requests, 80 seconds down to 2 seconds on rerun.</li>
                     </ul>
+                    <p><a class="repo-link" href="https://github.com/SnehitS/Flyers-Prediction-Model" target="_blank" rel="noopener noreferrer">GitHub repo</a></p>
                 </article>
             </div>
         </section>
@@ -391,20 +418,20 @@
                     <h3>Languages</h3>
                     <ul class="tags">
                         <li>Java</li><li>Python</li><li>C / C++</li><li>SQL (Postgres)</li>
-                        <li>JavaScript</li><li>TypeScript</li><li>HTML / CSS</li><li>R</li>
+                        <li>JavaScript</li><li>HTML / CSS</li><li>R</li><li>TypeScript</li>
                     </ul>
                 </div>
                 <div class="shelf">
                     <h3>Frameworks</h3>
                     <ul class="tags">
-                        <li>React</li><li>Node.js</li><li>Flask</li><li>FastAPI</li><li>JUnit</li><li>Material-UI</li>
+                        <li>React</li><li>Node.js</li><li>Flask</li><li>JUnit</li><li>Material-UI</li><li>FastAPI</li>
                     </ul>
                 </div>
                 <div class="shelf">
-                    <h3>Tools</h3>
+                    <h3>Developer tools</h3>
                     <ul class="tags">
-                        <li>Git</li><li>Docker</li><li>Google Cloud Platform</li><li>VS Code</li>
-                        <li>Visual Studio</li><li>PyCharm</li><li>Cursor</li><li>Eclipse</li>
+                        <li>Git</li><li>VS Code</li><li>Visual Studio</li>
+                        <li>PyCharm</li><li>Cursor</li><li>Eclipse</li>
                     </ul>
                 </div>
                 <div class="shelf">
@@ -434,6 +461,7 @@
     <footer id="bench" class="bench">
         <p class="bench-label">Contact the player</p>
         <p class="hero-links">
+            <a href="tel:+16103509550">610-350-9550</a>
             <a href="mailto:shadangisnehit@gmail.com">shadangisnehit@gmail.com</a>
             <a href="https://github.com/SnehitS" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/snehit-shadangi" target="_blank" rel="noopener noreferrer">LinkedIn</a>

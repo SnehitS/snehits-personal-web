@@ -37,6 +37,7 @@
 
         aisle.addEventListener("pointerdown", (event) => {
             if (event.pointerType === "mouse" && event.button !== 0) return;
+            if (event.target.closest("a")) return;
             down = true;
             startX = event.clientX;
             startScroll = aisle.scrollLeft;
@@ -66,6 +67,17 @@
             }
         });
     }
+
+    document.querySelectorAll("[data-scroll-aisle]").forEach((link) => {
+        link.addEventListener("click", (event) => {
+            const id = link.getAttribute("href")?.slice(1);
+            const target = id ? document.getElementById(id) : null;
+            if (!aisle || !target) return;
+            event.preventDefault();
+            const left = target.getBoundingClientRect().left - aisle.getBoundingClientRect().left + aisle.scrollLeft - 8;
+            aisle.scrollTo({ left, behavior: reduced ? "auto" : "smooth" });
+        });
+    });
 
     if (reduced) return;
 
